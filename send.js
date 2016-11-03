@@ -2,8 +2,8 @@ var login = require('facebook-chat-api');
 var getWeather = require('./getWeather');
 
 var user = {
-    email: 'youweiteng@gmail.com',
-    password: '0926535638'
+    email: 'FB_EMAIL',
+    password: 'FB_PASSWORD'
 };
 
 login(user, function(err, api){
